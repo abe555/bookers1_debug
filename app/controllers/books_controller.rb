@@ -8,7 +8,7 @@ class BooksController < ApplicationController
 
   def show
   end
-
+ 
   def create
     @book = Book.new(book_params)
     if @book.save
